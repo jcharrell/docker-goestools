@@ -16,3 +16,7 @@ $ sudo apt-get update
 $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo usermod -aG docker pi
 ```
+Following the `usermod` command, you will need to logout and back in with the pi user, in order to run `docker` commands without
+needing to supply `sudo`.
+
+
